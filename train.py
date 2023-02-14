@@ -12,7 +12,6 @@ import psutil
 p = psutil.Process()
 p.cpu_affinity([i for i in range(80,96)])
 
-
 import torch
 import gym
 import matplotlib as mpl
